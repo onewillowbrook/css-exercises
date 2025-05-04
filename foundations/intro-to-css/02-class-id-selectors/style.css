@@ -1,0 +1,17 @@
+/* styles.css */
+/*These are css comments*/
+
+.p {
+    background-color: rgb(203, 143, 220);
+    color: white;
+    /* font-size: 32px; */
+    text-align: left;
+    /* font-weight: bold; */
+    font-family: "Verdana", "DejaVu", "sans-serif";
+    
+}
+
+.number-two {
+    color: rgb(31, 31, 147);
+    font-size: 36px;
+}
