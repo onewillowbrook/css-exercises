@@ -6,6 +6,7 @@
   /* margin: 10px; */
   padding: 10px;
   justify-content: space-between;
+  
 }
 
 .logo {
@@ -22,6 +23,7 @@ ul {
   list-style-type: none;
   display: flex;
   /* align-self: left; */
+  gap: 8px;
 }
 
 a {
@@ -31,5 +33,6 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* gap: 8px; */
 }
