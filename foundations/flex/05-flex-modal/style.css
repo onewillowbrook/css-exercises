@@ -13,15 +13,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+  /* justify-content: space-between; */
 }
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* box-shadow: 2px 4px 16px rgba(0,0,0,.2); */
   display: flex;
-  /* align-items: flex-start; */
+  align-items: flex-start;
 }
 
 .icon {
@@ -37,10 +39,11 @@ body {
   justify-content: center;
   /* margin: 0.5em; */
   flex: 0 0 auto;
-  margin-top: 10px;
+  margin-top: 15px;
   /* padding-left: 10px;
-  margin-right: 10px;
-  margin-left: 10px; */
+  margin-right: 10px; */
+  margin-left: 10px;
+  /* align-items: flex-start; */
 }
 
 .close-button {
@@ -82,10 +85,10 @@ button.cancel {
 
 .container {
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   flex-direction: column;
   flex: 1;
-  /* gap: 3px; */
+  gap: 5px;
 }
 
 .header-row {
@@ -94,4 +97,10 @@ button.cancel {
   /* align-items: start; */
   font-weight: bold;
   font-size: large;
+}
+
+.continue-cancel {
+  display: flex;
+  margin-top: 10px;
+  /* gap: 5px; */
 }
