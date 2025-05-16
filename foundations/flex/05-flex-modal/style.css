@@ -7,8 +7,8 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
-  color: #333;
+  background: #aaa; /* #aaa */
+  color: #333; /* #333 */
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  /* align-items: flex-start; */
 }
 
 .icon {
@@ -33,10 +35,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin: 0.5em; */
+  flex: 0 0 auto;
+  margin-top: 10px;
+  /* padding-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px; */
 }
 
 .close-button {
-  background: #eee;
+  background: #eee;   /* #eee */
   border-radius: 50%;
   color: #888;
   font-weight: 400;
@@ -48,22 +56,42 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /* justify-content: flex-end; */
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  /* display: flex; */
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  /* display: flex; */
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  /* display: flex; */
+}
+
+.container {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  flex: 1;
+  /* gap: 3px; */
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: start; */
+  font-weight: bold;
+  font-size: large;
 }
