@@ -60,3 +60,23 @@ ul {
   display: flex;
   flex: 1 1 auto;
 }
+
+.card-one,
+.card-two {
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 48px;
+  padding-left: 48px; */
+  /* margin: 48px; */
+  margin-top: 48px;
+  gap: 48px;
+}
+.card-one {
+  margin-left: 48px;
+  margin-right: 24px;
+}
+
+.card-two {
+  margin-left: 24px;
+  margin-right: 48px;
+}
